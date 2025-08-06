@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ✅ Permissions for internet access and file selection -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_DOCUMENTS" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/t_erp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/t_erp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TeacherERP"
+        tools:targetApi="31">
+
+        <activity android:name=".activity.AddNoticeActivity" android:exported="false" />
+        <activity android:name=".activity.AddHolidayActivity" android:exported="false" />
+        <activity android:name=".activity.ViewClassScheduleActivity" android:exported="false" />
+        <activity android:name=".activity.AddClassScheduleActivity" android:exported="false" />
+        <activity android:name=".activity.AttendanceActivity" android:exported="false" />
+        <activity android:name=".activity.ResultActivity" android:exported="false" />
+        <activity android:name=".activity.NoticeBoardActivity" android:exported="false" />
+        <activity android:name=".activity.HolidayActivity" android:exported="false" />
+        <activity android:name=".activity.DoubtsActivity" android:exported="false" />
+        <activity android:name=".activity.ProfileActivity" android:exported="false" />
+        <activity android:name=".activity.TeacherDashboardActivity" android:exported="false" />
+        <activity android:name=".activity.RegistrationActivity" android:exported="false" />
+        <activity android:name=".activity.RegisterActivity" android:exported="false" />
+        <activity android:name=".activity.LoginActivity" android:exported="false" />
+        <activity android:name=".activity.MainActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

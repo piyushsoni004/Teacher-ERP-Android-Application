@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "568648465069",
+    "project_id": "erp-24fbe",
+    "storage_bucket": "erp-24fbe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568648465069:android:3ca4c57392206391c2a424",
+        "android_client_info": {
+          "package_name": "com.example.erp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO_31toZLBfgaFDmkjKXlKGomRfFKJtXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568648465069:android:ee12d0b7f7a55aeec2a424",
+        "android_client_info": {
+          "package_name": "com.example.teachererp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO_31toZLBfgaFDmkjKXlKGomRfFKJtXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

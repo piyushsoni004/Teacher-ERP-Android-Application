@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#EAF1FA"
+    tools:context=".activity.AddHolidayActivity">
+
+    <EditText
+        android:id="@+id/editDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="Enter Date (e.g. 2025-08-15)"
+        android:textColor="@color/black"
+        android:textColorHint="#404040"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editDay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Day (e.g. Friday)"
+        android:textColor="@color/black"
+        android:textColorHint="#404040"
+        app:layout_constraintTop_toBottomOf="@id/editDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/editReason"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Reason for Holiday"
+        android:textColor="@color/black"
+        android:textColorHint="#404040"
+        app:layout_constraintTop_toBottomOf="@id/editDay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btnAddHoliday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Holiday"
+        android:backgroundTint="#1D8876"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/editReason"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Teacher ERP</string>
+
+    <string-array name="days_array">
+        <item>All Days</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+</resources>
