@@ -65,15 +65,15 @@ This app works in sync with the **Student ERP App**, which handles the student-s
 
 ## 📁 Project Structure
 
-TeacherERP/
-├── java/com/yourpackage/teachererp/
-│ ├── activities/ # UI screens like Dashboard, Login, etc.
-│ ├── adapters/ # RecyclerView adapters
-│ ├── models/ # Model classes (e.g., Student, Schedule)
-│ └── utils/ # Helper functions
-├── res/layout/ # XML layouts
-├── res/drawable/ # Images, icons
-└── AndroidManifest.xml
+    TeacherERP/
+    ├── java/com/yourpackage/teachererp/
+    │ ├── activities/ # UI screens like Dashboard, Login, etc.
+    │ ├── adapters/ # RecyclerView adapters
+    │ ├── models/ # Model classes (e.g., Student, Schedule)
+    │ └── utils/ # Helper functions
+    ├── res/layout/ # XML layouts
+    ├── res/drawable/ # Images, icons
+    └── AndroidManifest.xml
 
 ---
 
@@ -97,9 +97,3 @@ TeacherERP/
 ## 📬 Feedback & Contributions
 
 Feel free to raise issues or submit pull requests for suggestions, bug fixes, or new feature ideas. All contributions are welcome!
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
