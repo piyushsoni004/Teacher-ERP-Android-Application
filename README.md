@@ -79,8 +79,11 @@ This app works in sync with the **Student ERP App**, which handles the student-s
 
 ## 🖼 Screenshots
 
-> _(You can add images here of Login, Dashboard, Attendance screen, etc.)_
-> <img width="1024" height="761" alt="bg" src="https://github.com/user-attachments/assets/b737f417-ae2b-40b5-a6e6-7db9cdb64822" />
+![a](https://github.com/user-attachments/assets/d62e6de3-1651-4df2-a24c-31607366d9ff)
+![b](https://github.com/user-attachments/assets/ebdeb0c4-aba2-46c1-a93b-47a8926f5b1e)
+![c](https://github.com/user-attachments/assets/4ec8b3ed-2999-4251-9b21-1636760b9209)
+![d](https://github.com/user-attachments/assets/c22c4fd7-ab41-4746-ad54-8a2590484d69)
+![e](https://github.com/user-attachments/assets/9a2f855b-a17c-4fa6-846c-74a66a0ba568)
 
 
 ---
