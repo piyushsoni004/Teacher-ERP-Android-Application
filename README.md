@@ -59,7 +59,7 @@ This app allows teachers to manage student-related tasks efficiently such as adm
 
 This app works in sync with the **Student ERP App**, which handles the student-side interface of the system.
 
-👉 **Student ERP GitHub Repository**: _[Add Link Here]_  
+👉 **Student ERP GitHub Repository**: _https://github.com/piyushsoni004/Student-ERP-Android-Application_  
 
 ---
 
